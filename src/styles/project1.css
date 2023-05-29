@@ -1,0 +1,52 @@
+/* App */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+/* Header */
+#header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 800px;
+}
+
+#title {
+}
+
+#navbar {
+  display: flex;
+  list-style-type: none;
+}
+
+.list-elements {
+  margin-right: 10px;
+}
+
+#content {
+  display: flex;
+}
+
+/* Article */
+#article {
+  border: 1px solid black;
+  width: 70%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+/* Aside */
+#aside {
+  border: 1px solid black;
+  width: 30%;
+  padding: 10px;
+}

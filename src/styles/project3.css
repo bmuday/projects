@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.image {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.birthday-container {
+  display: flex;
+  margin: 50px auto;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.infos-container {
+}
+
+#delete-button {
+  width: 60px;
+  padding: 5px;
+  background-color: rgb(226, 43, 83);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#clear-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#clear-button-container button {
+  width: 60px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#clear-button-container button:hover,
+#delete-button:hover {
+  transform: scale(1.1);
+}
