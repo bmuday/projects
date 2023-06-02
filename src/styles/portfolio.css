@@ -1,0 +1,12 @@
+#main,
+#contact,
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+section,
+footer {
+  margin-bottom: 30px;
+}
