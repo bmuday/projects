@@ -1,5 +1,5 @@
 import RecipeCard from "../components/RecipeCard";
-import "../styles/recipes.css";
+// import "../styles/recipes.css";
 
 const Recipes = ({ recipes }) => {
   return (
